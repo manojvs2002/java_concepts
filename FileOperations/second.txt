@@ -1,0 +1,4 @@
+Scenario2:
+ FileReader fr=new FileReader("abc.txt");
+ char[] ch=new char[10000];
+ int noOfCharactersCopied=fr.read(ch);
